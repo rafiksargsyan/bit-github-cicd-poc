@@ -35,6 +35,8 @@ jobs:
           $HOME/bin/bit config set anonymous_reporting false
           $HOME/bin/bit config set user.token $BIT_TOKEN
           $HOME/bin/bit config 
-          $HOME/bin/bit -v && bit import
+          $HOME/bin/bit -v && $HOME/bin/bit import
           $HOME/bin/bit status
+          $HOME/bin/bit compile
+          $HOME/bin/bit install
           $HOME/bin/bit test
