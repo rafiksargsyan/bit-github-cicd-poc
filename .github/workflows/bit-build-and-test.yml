@@ -31,10 +31,10 @@ jobs:
           bvm install
       - name: Bit build & Bit test
         run: |
-          bit config set analytics_reporting false
-          bit config set anonymous_reporting false
-          bit config set user.token $BIT_TOKEN
-          bit config 
-          bit -v && bit import
-          bit status
-          bit test
+          $HOME/bin/bit config set analytics_reporting false
+          $HOME/bin/bit config set anonymous_reporting false
+          $HOME/bin/bit config set user.token $BIT_TOKEN
+          $HOME/bin/bit config 
+          $HOME/bin/bit -v && bit import
+          $HOME/bin/bit status
+          $HOME/bin/bit test
