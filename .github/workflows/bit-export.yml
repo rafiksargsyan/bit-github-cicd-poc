@@ -43,6 +43,7 @@ jobs:
         run: |
           $HOME/bin/bit status
           $HOME/bin/bit compile
+          $HOME/bin/bit install
           $HOME/bin/bit tag -a
           $HOME/bin/bit export
       - name: Commit changes
