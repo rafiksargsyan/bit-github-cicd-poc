@@ -32,18 +32,18 @@ jobs:
           bvm install
       - name: bit config
         run: |
-          bit config set analytics_reporting false
-          bit config set anonymous_reporting false
-          bit config set user.token $BIT_TOKEN
-          bit config
+          $HOME/bin/bit config set analytics_reporting false
+          $HOME/bin/bit config set anonymous_reporting false
+          $HOME/bin/bit config set user.token $BIT_TOKEN
+          $HOME/bin/bit config
       - name: bit import
         run: |
-          bit -v && bit import
+          $HOME/bin/bit -v && bit import
       - name: bit export
         run: |
-          bit status
-          bit tag -a
-          bit export
+          $HOME/bin/bit status
+          $HOME/bin/bit tag -a
+          $HOME/bin/bit export
       - name: Commit changes
         run: |
           git config --global user.name '${{ github.actor }}'
