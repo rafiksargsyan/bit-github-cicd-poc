@@ -8,4 +8,4 @@ it('should render with the correct text', () => {
   expect(rendered).toBeTruthy();
 });
 
-//Comment
+//Comment foo bar
