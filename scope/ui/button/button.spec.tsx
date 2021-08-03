@@ -7,3 +7,5 @@ it('should render with the correct text', () => {
   const rendered = getByText('Foo bar');
   expect(rendered).toBeTruthy();
 });
+
+//Comment
