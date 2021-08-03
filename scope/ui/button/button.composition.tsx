@@ -2,5 +2,5 @@ import React from 'react';
 import { Button } from './button';
 
 export const BasicButton = () => (
-  <Button text="Byby from Button" />
+  <Button text="Foo bar" />
 );
