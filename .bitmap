@@ -3,7 +3,7 @@
 {
     "ui/button": {
         "scope": "rsargsyan.my-scope",
-        "version": "0.0.10",
+        "version": "0.0.11",
         "mainFile": "index.ts",
         "rootDir": "scope/ui/button"
     },
