@@ -7,8 +7,6 @@ name: Bit export CI
 on:
   push:
     branches: [master]
-    paths-ignore:  
-    - '.bitmap'    
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -54,5 +52,5 @@ jobs:
         run: |
           git config --global user.name '${{ github.actor }}'
           git config --global user.email '${{ github.actor }}@users.noreply.github.com'
-          git commit -am "Automated commit"
+          git commit -am "Automated commit skip-ci"
           git push
