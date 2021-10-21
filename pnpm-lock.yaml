@@ -9,16 +9,16 @@ importers:
       '@testing-library/react': registry.npmjs.org/@testing-library/react/12.1.2_react-dom@17.0.2+react@17.0.2
       '@types/jest': registry.npmjs.org/@types/jest/26.0.24
       '@types/node': registry.npmjs.org/@types/node/12.20.4
-      '@types/react': registry.npmjs.org/@types/react/17.0.29
-      '@types/react-dom': registry.npmjs.org/@types/react-dom/17.0.9
+      '@types/react': registry.npmjs.org/@types/react/17.0.31
+      '@types/react-dom': registry.npmjs.org/@types/react-dom/17.0.10
       '@types/testing-library__jest-dom': registry.npmjs.org/@types/testing-library__jest-dom/5.9.5
     specifiers:
       '@babel/runtime': 7.12.18
       '@testing-library/react': 12.1.2
       '@types/jest': ^26.0.24
       '@types/node': 12.20.4
-      '@types/react': ^17.0.29
-      '@types/react-dom': ^17.0.9
+      '@types/react': ^17.0.31
+      '@types/react-dom': ^17.0.10
       '@types/testing-library__jest-dom': 5.9.5
       core-js: ^3.18.3
       react: 17.0.2
@@ -221,17 +221,17 @@ packages:
       registry: https://node.bit.dev/
       tarball: https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.4.tgz
     version: 15.7.4
-  registry.npmjs.org/@types/react-dom/17.0.9:
+  registry.npmjs.org/@types/react-dom/17.0.10:
     dependencies:
-      '@types/react': registry.npmjs.org/@types/react/17.0.29
+      '@types/react': registry.npmjs.org/@types/react/17.0.31
     dev: true
     name: '@types/react-dom'
     resolution:
-      integrity: sha512-wIvGxLfgpVDSAMH5utdL9Ngm5Owu0VsGmldro3ORLXV8CShrL8awVj06NuEXFQ5xyaYfdca7Sgbk/50Ri1GdPg==
+      integrity: sha512-8oz3NAUId2z/zQdFI09IMhQPNgIbiP8Lslhv39DIDamr846/0spjZK0vnrMak0iB8EKb9QFTTIdg2Wj2zH5a3g==
       registry: https://node.bit.dev/
-      tarball: https://registry.npmjs.org/@types/react-dom/-/react-dom-17.0.9.tgz
-    version: 17.0.9
-  registry.npmjs.org/@types/react/17.0.29:
+      tarball: https://registry.npmjs.org/@types/react-dom/-/react-dom-17.0.10.tgz
+    version: 17.0.10
+  registry.npmjs.org/@types/react/17.0.31:
     dependencies:
       '@types/prop-types': registry.npmjs.org/@types/prop-types/15.7.4
       '@types/scheduler': registry.npmjs.org/@types/scheduler/0.16.2
@@ -239,10 +239,10 @@ packages:
     dev: true
     name: '@types/react'
     resolution:
-      integrity: sha512-HSenIfBEBZ70BLrrVhtEtHpqaP79waauPtA8XKlczTxL3hXrW/ElGNLTpD1TmqkykgGlOAK55+D3SmUHEirpFw==
+      integrity: sha512-MQSR5EL4JZtdWRvqDgz9kXhSDDoy2zMTYyg7UhP+FZ5ttUOocWyxiqFJiI57sUG0BtaEX7WDXYQlkCYkb3X9vQ==
       registry: https://node.bit.dev/
-      tarball: https://registry.npmjs.org/@types/react/-/react-17.0.29.tgz
-    version: 17.0.29
+      tarball: https://registry.npmjs.org/@types/react/-/react-17.0.31.tgz
+    version: 17.0.31
   registry.npmjs.org/@types/scheduler/0.16.2:
     dev: true
     name: '@types/scheduler'
