@@ -9,7 +9,7 @@
     },
     "ui/my-card": {
         "scope": "rsargsyan.my-scope",
-        "version": "0.0.1",
+        "version": "0.0.2",
         "mainFile": "index.ts",
         "rootDir": "my-scope/ui/my-card"
     },
