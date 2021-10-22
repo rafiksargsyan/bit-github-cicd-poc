@@ -3,13 +3,13 @@
 {
     "ui/my-button": {
         "scope": "rsargsyan.my-scope",
-        "version": "0.0.5",
+        "version": "0.0.8",
         "mainFile": "index.ts",
         "rootDir": "my-scope/ui/my-button"
     },
     "ui/my-card": {
         "scope": "rsargsyan.my-scope",
-        "version": "0.0.5",
+        "version": "0.0.9",
         "mainFile": "index.ts",
         "rootDir": "my-scope/ui/my-card"
     },
